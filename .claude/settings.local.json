@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view:*)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(mkdir -p commit-message-pro code-reviewer/docs test-generator api-designer refactor-assistant/docs)",
+      "Bash(mv commit-message-pro.md commit-message-pro/SKILL.md)",
+      "Bash(mv code-reviewer.md code-reviewer/SKILL.md)",
+      "Bash(mv test-generator.md test-generator/SKILL.md)",
+      "Bash(mv api-designer.md api-designer/SKILL.md)"
+    ]
+  }
+}

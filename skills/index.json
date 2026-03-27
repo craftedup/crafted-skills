@@ -1,0 +1,98 @@
+[
+  {
+    "name": "API Designer",
+    "slug": "api-designer",
+    "description": "Designs RESTful and GraphQL APIs with consistent naming, proper status codes, pagination, and OpenAPI documentation.",
+    "author": "crafted-skills",
+    "category": "architecture",
+    "tags": [
+      "api",
+      "rest",
+      "openapi",
+      "design"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
+    "docs": []
+  },
+  {
+    "name": "Code Reviewer",
+    "slug": "code-reviewer",
+    "description": "Performs thorough code reviews focusing on bugs, security vulnerabilities, performance issues, and maintainability.",
+    "author": "crafted-skills",
+    "category": "code-quality",
+    "tags": [
+      "review",
+      "security",
+      "best-practices"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
+    "docs": [
+      "performance-patterns.reference.md",
+      "security-checklist.reference.md"
+    ]
+  },
+  {
+    "name": "Commit Message Pro",
+    "slug": "commit-message-pro",
+    "description": "Generates conventional commit messages by analyzing staged changes. Detects scope, type, and breaking changes automatically.",
+    "author": "crafted-skills",
+    "category": "git",
+    "tags": [
+      "commits",
+      "conventional-commits",
+      "git"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
+    "docs": []
+  },
+  {
+    "name": "Refactor Assistant",
+    "slug": "refactor-assistant",
+    "description": "Identifies code smells and suggests targeted refactoring strategies while preserving existing behavior.",
+    "author": "crafted-skills",
+    "category": "code-quality",
+    "tags": [
+      "refactoring",
+      "clean-code",
+      "maintainability"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
+    "docs": [
+      "code-smells.reference.md"
+    ]
+  },
+  {
+    "name": "Test Generator",
+    "slug": "test-generator",
+    "description": "Generates comprehensive unit and integration tests with edge cases, mocks, and clear test descriptions.",
+    "author": "crafted-skills",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "unit-tests",
+      "tdd"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
+    "docs": []
+  }
+]
