@@ -5,7 +5,7 @@
 	"howToUse": "Tell Claude/Cursor to use this skill, give it the Figma link (via Figma MCP), and provide any additional notes about the block (e.g. block name, special behaviors, content variations). It will read the design, determine PHP-only vs PHP+React, and scaffold all required files — block.json, PHP template, ACF field group JSON, SCSS, and webpack.mix.js entry.",
 	"author": "Ken Stark",
 	"category": "architecture",
-	"tags": ["wordpress", "figma"],
+	"tags": ["wordpress", "figma", "acf"],
 	"tools": ["claude", "cursor"],
 	"version": "2.0.0",
 	"createdAt": "2026-03-27"
