@@ -2,9 +2,15 @@
   "name": "crafted-skills",
   "private": true,
   "workspaces": ["web"],
+  "bin": {
+    "crafted-skills": "./bin/cli.mjs"
+  },
   "scripts": {
     "dev": "npm run dev --workspace=web",
     "build": "npm run build:index && npm run build --workspace=web",
     "build:index": "node scripts/build-index.mjs"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
   }
 }
