@@ -3,7 +3,7 @@
     "name": "TestFlight & Play Submit",
     "slug": "testflight",
     "description": "Runs local EAS builds for Expo apps and submits artifacts non-interactively to TestFlight (iOS) or Google Play (Android), with profile-aware build numbers, eas.json pre-flight checks, and separate build-then-submit steps.",
-    "author": "Ken Stark",
+    "author": "Sean Hise",
     "category": "mobile",
     "tags": [
       "expo",
@@ -28,7 +28,8 @@
     "category": "architecture",
     "tags": [
       "wordpress",
-      "figma"
+      "figma",
+      "acf"
     ],
     "tools": [
       "claude",
