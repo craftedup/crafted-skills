@@ -1,0 +1,12 @@
+{
+	"name": "TestFlight & Play Submit",
+	"slug": "testflight",
+	"description": "Runs local EAS builds for Expo apps and submits artifacts non-interactively to TestFlight (iOS) or Google Play (Android), with profile-aware build numbers, eas.json pre-flight checks, and separate build-then-submit steps.",
+	"howToUse": "Invoke with `/testflight`, or `/testflight ios` / `/testflight android` for one platform; add a profile as a second argument (e.g. `int`, `uat`, `prod`; defaults to `prod`). Before use, ensure `eas.json` has `submit.<profile>.ios.ascAppId` and `submit.<profile>.android.serviceAccountKeyPath` as required. The assistant runs `eas` CLI commands on your behalf—do not run them yourself.",
+	"author": "Sean Hise",
+	"category": "mobile",
+	"tags": ["expo", "eas", "testflight", "google-play", "ios", "android"],
+	"tools": ["claude", "cursor"],
+	"version": "1.0.0",
+	"createdAt": "2026-03-27"
+}

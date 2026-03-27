@@ -8,6 +8,7 @@ export interface SkillMeta {
   name: string;
   slug: string;
   description: string;
+  howToUse: string;
   author: string;
   category: string;
   tags: string[];

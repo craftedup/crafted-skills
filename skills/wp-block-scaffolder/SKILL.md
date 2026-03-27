@@ -1,19 +1,3 @@
----
-name: WordPress Block Scaffolder
-slug: wp-block-scaffolder
-description: Construct a WordPress block, building ACF fields from a Figma design.
-author: crafted-skills
-category: architecture
-tags:
-  - wordpress
-  - figma
-tools:
-  - claude
-  - cursor
-version: 2.0.0
-createdAt: 2026-03-27
----
-
 # Scaffold WordPress Block (PHP-First)
 
 ## TL;DR (Read First)

@@ -69,6 +69,14 @@ export default async function SkillPage({ params }: Props) {
         </div>
       </div>
 
+      {/* How To Use */}
+      {skill.howToUse && (
+        <div className="mb-10 rounded-xl border border-zinc-800 bg-zinc-900 p-6">
+          <h2 className="text-lg font-semibold text-zinc-100 mb-3">How To Use</h2>
+          <p className="text-sm text-zinc-300 leading-relaxed">{skill.howToUse}</p>
+        </div>
+      )}
+
       {/* Install */}
       <div className="mb-10">
         <InstallInstructions
