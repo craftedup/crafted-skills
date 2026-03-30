@@ -15,7 +15,7 @@ const skillsDir = path.resolve(__dirname, "..", "skills");
 // Read skill directories (skip files like index.json)
 const dirs = fs
   .readdirSync(skillsDir, { withFileTypes: true })
-  .filter((d) => d.isDirectory())
+  .filter((d) => d.isDirectory() && !d.name.startsWith("."))
   .map((d) => d.name);
 
 const index = dirs.map((slug) => {

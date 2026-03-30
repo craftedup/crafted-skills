@@ -43,5 +43,29 @@
       "focuspoint.reference.md",
       "styling-tokens.reference.md"
     ]
+  },
+  {
+    "name": "WordPress Plugin Scaffolder",
+    "slug": "wp-plugin-scaffolder",
+    "description": "Scaffold a brand-new WordPress plugin from scratch using the WordPress Plugin Boilerplate pattern, enforcing security, i18n, coding standards, and a clean OOP architecture.",
+    "author": "Ken Stark",
+    "category": "architecture",
+    "tags": [
+      "wordpress",
+      "plugin",
+      "boilerplate",
+      "oop",
+      "security"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
+    "docs": [
+      "admin-public.reference.md",
+      "plugin-structure.reference.md",
+      "security-standards.reference.md"
+    ]
   }
 ]

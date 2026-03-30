@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/wamp64/www/crafted-skills/**)",
+      "Bash(node scripts/build-index.mjs)"
+    ]
+  }
+}
