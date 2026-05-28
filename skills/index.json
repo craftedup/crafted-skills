@@ -21,21 +21,47 @@
     "docs": []
   },
   {
-    "name": "WordPress Block Scaffolder",
-    "slug": "wp-block-scaffolder",
-    "description": "Scaffold a WordPress block from a Figma design, building ACF fields, PHP templates, SCSS, and optional React components following strict project conventions.",
+    "name": "WordPress Block Scaffolder (Webpack)",
+    "slug": "wp-block-scaffolder-webpack",
+    "description": "Scaffold a WordPress block from a Figma design, building ACF fields, PHP templates, SCSS, and optional React components following strict project conventions, made for themes using Webpack for asset bundling.",
     "author": "Ken Stark",
     "category": "architecture",
     "tags": [
       "wordpress",
       "figma",
-      "acf"
+      "acf",
+      "webpack"
     ],
     "tools": [
       "claude",
       "cursor"
     ],
     "version": "2.0.0",
+    "docs": [
+      "acf-json.reference.md",
+      "block-scaffolding.reference.md",
+      "button-system.reference.md",
+      "focuspoint.reference.md",
+      "styling-tokens.reference.md"
+    ]
+  },
+  {
+    "name": "WordPress Block Scaffolder (Vite)",
+    "slug": "wp-block-scaffolder-vite",
+    "description": "Scaffold a WordPress block from a Figma design, building ACF fields, PHP templates, SCSS, and optional React components following strict project conventions, made for themes using Vite for asset bundling.",
+    "author": "Ken Stark",
+    "category": "architecture",
+    "tags": [
+      "wordpress",
+      "figma",
+      "acf",
+      "vite"
+    ],
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "version": "1.0.0",
     "docs": [
       "acf-json.reference.md",
       "block-scaffolding.reference.md",

@@ -1,4 +1,4 @@
-# Scaffold WordPress Block (PHP-First)
+# Scaffold WordPress Block (PHP-First -- Webpack)
 
 ## TL;DR (Read First)
 
