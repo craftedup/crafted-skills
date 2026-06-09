@@ -1,0 +1,12 @@
+{
+	"name": "USA Football Local SSL",
+	"slug": "usafb-local-ssl",
+	"description": "Local HTTPS setup for usafb-public-ui dev: run the local-ssl-proxy for https://local.usafootball.com:3001 and manage mkcert certificates.",
+	"howToUse": "Tell Claude/Cursor to use this skill when starting the local SSL proxy, troubleshooting HTTPS for local.usafootball.com, or setting up mkcert certs for usafb-public-ui. Prereqs: a `127.0.0.1 local.usafootball.com` entry in /etc/hosts and mkcert-generated certs in ~/certs (the skill includes the mkcert commands to create them). Run the app on port 3000, then the proxy serves it over HTTPS on 3001.",
+	"author": "Sean Hise",
+	"category": "devops",
+	"tags": ["ssl", "https", "mkcert", "local-dev", "nextjs", "usafootball"],
+	"tools": ["claude", "cursor"],
+	"version": "1.0.0",
+	"createdAt": "2026-06-09"
+}
